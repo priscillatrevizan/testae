@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Estilo para o modo claro */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+  color: #191919;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilo para o modo escuro */
+.dark-mode {
+  background-color: #191919;
+  color: #f6f6f6;
+}
+
+/* Outros estilos permanecem iguais */
+
+/* Estilo para o botão de alternar modo */
+header {
+  position: relative;
+}
+
+#toggle-mode {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #5a758b;
+  color: #fff;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#toggle-mode:hover {
+  background-color: #7ab9ec;
+}
+
+/* Consulta de mídia para dispositivos móveis */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  #toggle-mode {
+    margin: 20px;
+    padding: 12px 12px;
+    font-size: 12px;
+  }
+}
+
+#questions-container {
+  margin: 20px; /* Adiciona espaçamento abaixo do container de perguntas */
+}
+
+#questions-container div {
+  margin-bottom: 10px; /* Adiciona espaçamento entre cada pergunta */
+}
+
+#questions-container div input[type="radio"] {
+  margin-bottom: 5px; /* Adiciona espaçamento entre cada opção de resposta */
+}

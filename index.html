@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <title>Testaê</title>
+</head>
+
+<body>
+    <header>
+        <h1>Testaê - Teste seus conhecimentos e estude de forma mais fácil</h1>
+        <button id="toggle-mode">
+            <i id="mode-icon" class="fas fa-sun"></i>
+
+        </button>
+    </header>
+
+    <main>
+        <div id="questions-container">
+            <!-- As perguntas serão inseridas aqui dinamicamente -->
+        </div>
+
+        <button onclick="submitAnswers()">Corrigir Respostas</button>
+        <div id="score-container"></div>
+        <div id="correct-answers-container">Atente-se a estudar mais os pontos:</div>
+    </main>
+
+    <footer>
+        <script src="script.js"></script>
+        <script src="toggle.js"></script>
+    </footer>
+</body>
+
+</html>
