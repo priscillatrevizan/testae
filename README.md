@@ -27,7 +27,7 @@ const questions = [
     },
     // Adicione mais perguntas no mesmo formato conforme necessário
 ];
-
+```
 ##Contribuição
 Contribuições são bem-vindas! Se quiser contribuir para o projeto, sinta-se à vontade para abrir um pull request. Certifique-se de discutir as mudanças importantes antes de fazer alterações significativas.
 
