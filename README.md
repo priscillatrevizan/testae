@@ -10,11 +10,11 @@ Este projeto surgiu da necessidade de se "auto-testar", e foi desenvolvido para 
 - Suporta dois modos de visualização: claro e escuro.
 - Adaptado para ser utilizado em dispositivos móveis.
 
-## Utilizando Questões do Último Programa de Formação
+## Utilizando Questões existentes
 
-Para utilizar com as questões do último programa de formação de 2023, acesse a versão online em [Testaê Online](https://testae.vercel.app/).
+Para utilizar com as questões do último programa de formação de 2023 Orange, mais algumas questões de programação extraídas da internet, acesse a versão online em [Testaê Online](https://testae.vercel.app/).
 
-Se desejar modificar as perguntas para estudar outros tópicos, você pode editar o arquivo `script.js` no campo `const questions`, mantendo o formato:
+Se desejar modificar as perguntas para estudar outros tópicos, você pode fazer uma cópia só para você e editar o arquivo `script.js` no campo `const questions`, mantendo o formato:
 
 ```javascript
 const questions = [
