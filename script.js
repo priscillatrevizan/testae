@@ -11,7 +11,7 @@ const questions = [
         correctAnswer: "PUT é usado para alterar um dado completo e PATCH altera o dado parcialmente."
     },
     {
-        question: "Qual seria o resultado da função:  função <br>inteiro soma (inteiro a, inteiro b) <br>{ a+b } ?",
+        question: "Qual seria o resultado da função?  <br> função inteiro soma (inteiro a, inteiro b) {<br> a+b<br> }",
         options: [
             "4",
             "0",
@@ -34,22 +34,23 @@ const questions = [
         question: "Qual a função de uma API?",
         options: [
             "Definir a estrutura lógica dos documentos em forma de árvore, a qual guia o navegador na representação e manipulação dos componentes da página.",
-            "Permitirem a integração entre dois sistemas, em um deles fornece informações e servilços que podem ser utilizados pelo outro, sem a necessidade de algum dos sistemas conhecer detalhes de implementação de software",
-            "TRaduz um programa descrito em uma linguagem de alto nível para um programa equivalente em código de máquina para um processador",
+            "Permitir a integração entre dois sistemas, em um deles fornece informações e servilços que podem ser utilizados pelo outro, sem a necessidade de algum dos sistemas conhecer detalhes de implementação de software",
+            "Traduz um programa descrito em uma linguagem de alto nível para um programa equivalente em código de máquina para um processador",
             "Criar aplicações que combina ferramentas comuns de desenvolvimento em uma única interface gráfica do usuário (GUI)"
         ],
-        correctAnswer: "Permitirem a integração entre dois sistemas, em um deles fornece informações e servilços que podem ser utilizados pelo outro, sem a necessidade de algum dos sistemas conhecer detalhes de implementação de software"
+        correctAnswer: "Permitir a integração entre dois sistemas, em um deles fornece informações e servilços que podem ser utilizados pelo outro, sem a necessidade de algum dos sistemas conhecer detalhes de implementação de software"
     },
     {
         question: `Um estudante de programação elaborou a seguinte sequência:
         <br>Faça x = 0.
         <br>Faça y = 0.
-        <br>Enquanto x < 3 <br> faça:
+        <br>Enquanto x < 3 
+        <br>faça:
         <br>{<br>
-                y = y + x<br>
-                x = x + 1<br>
-            }<br>
-            O valor final de x e y mostrados serão, respectivamente:`,
+            &nbsp;&nbsp;&nbsp;&nbsp;y = y + x<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;x = x + 1<br>
+        }<br>
+        O valor final de x e y mostrados serão, respectivamente:`,
         options: [
             "4 e 6",
             "3 e 3",
@@ -133,10 +134,10 @@ const questions = [
         options: [
             "DELETE Pessoas WHERE NomePessoa = 'Rebeca Silva'",
             "DELETE FROM Pessoas WHERE 'Jorge Santos'",
-            "DELETE FROM Pessoas WHERE NomePEssoa='Jorge Santos'",
+            "DELETE FROM Pessoas WHERE NomePessoa='Jorge Santos'",
             "DELETE FROM pessoas WHERE nomePessoa LIKE 'Santos';"
         ],
-        correctAnswer: "DELETE FROM Pessoas WHERE NomePEssoa='Jorge Santos'"
+        correctAnswer: "DELETE FROM Pessoas WHERE NomePessoa='Jorge Santos'"
     },
     {
         question: "Qual das propriedades a seguir não é uma propriedade do Flexbox?",
@@ -388,24 +389,6 @@ const questions = [
         correctAnswer: "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oferecem alguma funcionalidade específica."
     },
     {
-        question: "Um estudante elaborou a seguinte sequência:\n\
-        Faça x = 0.\n\
-        Faça y = 0.\n\
-        Enquanto x < 3 faça:\n\
-        {\n\
-            y = y + x\n\
-            x = x + 1\n\
-        }\n\
-        O valor final de x e y mostrados serão, respectivamente:",
-        options: [
-            "4 e 6",
-            "3 e 3",
-            "3 e 4",
-            "4 e 3"
-        ],
-        correctAnswer: "3 e 3"
-    },
-    {
         question: "Qual a diferença entre um objeto instanciado de uma classe e a própria classe?",
         options: [
             "Qualquer atributo de uma classe pode ser utilizado diretamente por ela. O objetivo do Objeto é descrever a estrutura com que a classe será construída.",
@@ -477,7 +460,7 @@ const questions = [
         correctAnswer: "Verdadeiro, Falso"
     },
     {
-        question: "A qual operação lógica essa tabela-verdade se refere?",
+        question: "Observe a tabela-verdade a seguir e responda:<br><br>Operando A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Operando B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resultado<br>F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F<br>F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V<br>V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V<br>V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V<br><br>A qual operação lógica essa tabela-verdade se refere?",
         options: [
             "AND",
             "XOR",
@@ -532,7 +515,19 @@ const questions = [
         correctAnswer: "+"
     },
     {
-        question: "Observe atentamente o algoritmo a seguir:<br><br>var<br>   num : inteiro<br>início<br>   num <- 1<br>   enquanto (num <= 10) faca<br>     escreval (num)<br>     num <- num += 0<br>   fimenquanto<br>   se (num > 10) entao<br>     escreva(num)<br>   fimse<br>fimalgoritmo<br>Esse algoritmo possui um erro.<br>Que erro é esse?",
+        question: `Observe atentamente o algoritmo a seguir:<br>
+    <br>var<br>   
+    &nbsp;&nbsp;num : inteiro<br>
+    &nbsp;&nbsp;&nbsp;início<br>   
+    &nbsp;&nbsp;&nbsp;&nbsp;num <- 1<br>   
+    &nbsp;&nbsp;&nbsp;&nbsp;enquanto (num <= 10) faça<br>     
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;escreval (num)<br>     
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num <- num += 0<br>   
+    &nbsp;&nbsp;&nbsp;&nbsp;fimenquanto<br>   
+    &nbsp;&nbsp;&nbsp;&nbsp;se (num > 10) entao<br>     
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;escreva(num)<br>   
+    &nbsp&nbsp;&nbsp;fimse<br>fimalgoritmo<br>
+    <br>Esse algoritmo possui um erro, que erro é esse?`,
         options: [
             "Loop Truncado",
             "Loop Infinito",
@@ -629,6 +624,17 @@ const questions = [
             "Programação lista de instruções."
         ],
         correctAnswer: "Programação em blocos."
+    },
+    {
+        question: "Quanto à lógica de programação, analise as assertivas abaixo e assinale a alternativa correta.",
+        options: [
+            "Todas as assertivas estão corretas.",
+            "Todas as assertivas estão incorretas.",
+            "Apenas a assertiva I está correta.",
+            "Apenas as assertivas I e II estão corretas.",
+            "Apenas as assertivas III e IV estão corretas."
+        ],
+        correctAnswer: "Apenas as assertivas III e IV estão corretas."
     },
     // {
     //     question: "",
