@@ -32,7 +32,6 @@ body {
   color: #7ab9ec;
 }
 
-/* Estilo para o botão de alternar modo */
 header {
   position: relative;
 }
@@ -55,33 +54,20 @@ header {
   background-color: #7ab9ec;
 }
 
-/* Consulta de mídia para dispositivos móveis */
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-
-  #toggle-mode {
-    margin: 20px;
-    padding: 12px 12px;
-    font-size: 12px;
-  }
-}
-
 /* Estilo perguntas */
 #questions-container {
-  margin: 20px; /* Adiciona espaçamento abaixo do container de perguntas */
-}
+  margin: 20px; 
 
 #questions-container div {
-  margin-bottom: 10px; /* Adiciona espaçamento entre cada pergunta */
+  margin-bottom: 10px; 
 }
 
 #questions-container div input[type="radio"] {
-  margin-bottom: 10px; /* Adiciona espaçamento entre cada opção de resposta */
+  margin-bottom: 10px; /
 }
 
 button {
+  margin-left: 20px;
   background-color: #05457a;
   color: #f6f6f6;
   border: 0.3px solid #7ab9ec;
@@ -105,4 +91,22 @@ button:hover {
   background-color: #2193f1;
   font-weight: 900;
   cursor: pointer;
+}
+
+#correct-answers-container {
+  padding: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  header h1 {
+    font-size: 16px;
+  }
+  #questions-container {
+    font-size: 12px;
+  }
+
+  #toggle-mode {
+    margin: 10px;
+    padding: 10px 10px;
+  }
 }
