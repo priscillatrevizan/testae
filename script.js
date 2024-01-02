@@ -28,7 +28,7 @@ const questions = [
             "São conjuntos de arquicos relacionados entre si, com registris sobrepessoas, lugares ou informações em geral",
             "Trata-se de uma interface de programação que os navegadores utilizam para representar páginas na web"
         ],
-        correctAnswer: "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oderecem alguma funcionalidade específica. Em outras palavrasm é um padrão que pode ser incorporado a sistemas para agilizar a codificação de certas partes"
+        correctAnswer: "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oderecem alguma funcionalidade específica. Em outras palavras é um padrão que pode ser incorporado a sistemas para agilizar a codificação de certas partes"
     },
     {
         question: "Qual a função de uma API?",
@@ -177,7 +177,7 @@ const questions = [
             "SE {valorDoAlmoco * 2 + valorDaBebida <= dinheiroNaCarteira} {ESCREVA {*Minha esposa foi almoçar comigo.*}}",
             "SE {valorDoAlmoco + valorDaBebida * 2  == dinheiroNaCarteira} {ESCREVA {*Minha esposa foi almoçar comigo.*}}"
         ],
-        correctAnswer: "SE {valorDoAlmoco * 2 + valorDaBebida <= dinheiroNaCarteira} {ESCREVA {Minha esposa foi almoçar comigo.}}"
+        correctAnswer: "SE {valorDoAlmoco * 2 + valorDaBebida <= dinheiroNaCarteira} {ESCREVA {*Minha esposa foi almoçar comigo.*}}"
     },
     {
         question: "O que são Funções Recursivas?",
@@ -585,12 +585,12 @@ const questions = [
         question: "Num determinado código de programação, foi encontrada a expressão booleana “( A or B) and (A or C)”. Como essa expressão poderia ser reescrita para se obter um código mais eficiente, com um menor número de operações?",
         options: [
             "A or B or C",
-            "A or B and C",
+            "A or (B and C)",
             "A and B or C",
             "A and B and C",
             "( A or B ) and C"
         ],
-        correctAnswer: "( A or B ) and C"
+        correctAnswer: "A or (B and C)"
     },
     {
         question: "Os tipos de dados são essenciais na programação, determinando como os valores são armazenados e manipulados. Eles definem os conjuntos de valores e as operações possíveis, desempenhando um papel fundamental na comunicação entre programadores e computadores. Entender os tipos de dados é crucial para criar programas funcionais e robustos.<br><br>Sobre os tipos de dados, analise as assertivas a seguir.<br><br>I. Tipos inteiros armazenam valores que pertencem ao conjunto dos números naturais, sem a parte fracionária.<br>II. Tipos numéricos com a parte fracionária são definidos como reais.<br>III. Tipos caracteres permitem armazenar um único caractere.<br><br>É correto o que se afirma em",
