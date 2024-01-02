@@ -1,5 +1,4 @@
-# Testaê - Preparatório para o Programa de Formação em Programação da FCamara
-
+# Testaê - Teste seus conhecimentos, com seu próprio questionário
 Este projeto surgiu da necessidade de se "auto-testar", e foi desenvolvido para auxiliar nos estudos preparatórios para o programa de formação em programação da Orange Juice e FCamara. O Testaê é uma aplicação interativa que apresenta uma série de perguntas e respostas relacionadas aos conceitos e tecnologias frequentemente abordados no programa.
 
 ## Funcionalidades
