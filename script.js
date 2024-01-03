@@ -636,11 +636,16 @@ const questions = [
         ],
         correctAnswer: "Apenas as assertivas III e IV estão corretas."
     },
-    // {
-    //     question: "",
-    //     options: [],
-    //     correctAnswer: ""
-    // },
+	 {
+		question: "Qual desses frameworks não é utilizado para desenvolver aplicações front-end?",
+		options: [
+			"ReactJS",
+			"VueJS",
+			"NestJS",
+			"Angular"
+		],
+		correctAnswer: "NestJS"
+	 }
 ];
 
 
