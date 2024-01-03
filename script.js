@@ -636,11 +636,16 @@ const questions = [
         ],
         correctAnswer: "Apenas as assertivas III e IV estão corretas."
     },
-    // {
-    //     question: "",
-    //     options: [],
-    //     correctAnswer: ""
-    // },
+	 {
+		question: "Qual desses frameworks não é utilizado para desenvolver aplicações front-end?",
+		options: [
+			"ReactJS",
+			"VueJS",
+			"NestJS",
+			"Angular"
+		],
+		correctAnswer: "NestJS"
+	 }
 ];
 
 
@@ -653,7 +658,10 @@ function displayQuestions() {
         const questionElement = document.createElement("div");
         questionElement.innerHTML = `
             <h3>Pergunta ${index + 1}: ${question.question}</h3>
-            ${question.options.map(option => `<input type="radio" name="question${index}" value="${option}">${option}<br>`).join("")}
+            ${question.options.map(option => `
+				<input type="radio" id="${option}" name="question${index}" value="${option}">
+				<label for="${option}">${option}</label><br>
+				`).join("")}
             <hr>
         `;
         questionsContainer.appendChild(questionElement);
