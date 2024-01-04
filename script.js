@@ -28,7 +28,7 @@ const questions = [
             "São conjuntos de arquivos relacionados entre si, com registros sobre pessoas, lugares ou informações em geral",
             "Trata-se de uma interface de programação que os navegadores utilizam para representar páginas na web"
         ],
-        correctAnswer: "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oferecem alguma funcionalidade específica. Em outras palavrasm é um padrão que pode ser incorporado a sistemas para agilizar a codificação de certas partes"
+        correctAnswer: "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oferecem alguma funcionalidade específica. Em outras palavras é um padrão que pode ser incorporado a sistemas para agilizar a codificação de certas partes"
     },
     {
         question: "Qual a função de uma API?",
@@ -177,7 +177,7 @@ const questions = [
             "SE {valorDoAlmoco * 2 + valorDaBebida <= dinheiroNaCarteira} {ESCREVA {*Minha esposa foi almoçar comigo.*}}",
             "SE {valorDoAlmoco + valorDaBebida * 2  == dinheiroNaCarteira} {ESCREVA {*Minha esposa foi almoçar comigo.*}}"
         ],
-        correctAnswer: "SE {valorDoAlmoco * 2 + valorDaBebida <= dinheiroNaCarteira} {ESCREVA {Minha esposa foi almoçar comigo.}}"
+        correctAnswer: "SE {valorDoAlmoco * 2 + valorDaBebida <= dinheiroNaCarteira} {ESCREVA {*Minha esposa foi almoçar comigo.*}}"
     },
     {
         question: "O que são Funções Recursivas?",
@@ -565,7 +565,7 @@ const questions = [
         question: "Em um determinado código de programação, foi encontrada a expressão booleana “( A or B) and (A or C)”. Como essa expressão poderia ser reescrita para se obter um código mais eficiente, com um menor número de operações?",
         options: [
             "A or B or C",
-            "A or B and C",
+            "A or (B and C)",
             "A and B or C",
             "A and B and C",
             "( A or B ) and C"
@@ -623,11 +623,35 @@ const questions = [
         ],
         correctAnswer: "Apenas as assertivas III e IV estão corretas."
     },
+    {
+        question: "Qual desses frameworks não é utilizado para desenvolver aplicações front-end?",
+        options: [
+            "ReactJS",
+            "VueJS",
+            "NestJS",
+            "Angular"
+        ],
+        correctAnswer: "NestJS"
+    },
+    {
+        question: "Uma grande vantagem da utilização da recursividade é o baixo consumo de memória.",
+        options: [
+            "Certo",
+            "Errado",
+        ],
+        correctAnswer: "Errado"
+    },
     // {
     //     question: "",
-    //     options: [],
+    //     options: [
+    //         "",
+    //         "",
+    //         "",
+    //         ""
+    //     ],
     //     correctAnswer: ""
     // },
+
 ];
 
 
@@ -640,7 +664,10 @@ function displayQuestions() {
         const questionElement = document.createElement("div");
         questionElement.innerHTML = `
             <h3>Pergunta ${index + 1}: ${question.question}</h3>
-            ${question.options.map(option => `<input type="radio" name="question${index}" value="${option}">${option}<br>`).join("")}
+            ${question.options.map(option => `
+				<input type="radio" id="${option}" name="question${index}" value="${option}">
+				<label for="${option}">${option}</label><br>
+				`).join("")}
             <hr>
         `;
         questionsContainer.appendChild(questionElement);

@@ -35,7 +35,7 @@ Contribuições são bem-vindas! Se quiser contribuir para o projeto, sinta-se �
 
 ## Melhorias que estão nos Planos:
 
-- Visualização questão
+- Visualização questão estilo "power point"
 - Correção das questões com visualização "questão por questão".
 - Opção de inserir suas proprias questões.
 
