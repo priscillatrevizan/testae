@@ -369,16 +369,6 @@ const questions = [
         correctAnswer: "PUT é usado para alterar um dado completo e PATCH altera o dado parcialmente."
     },
     {
-        question: "Qual seria o resultado da função: função inteiro soma (inteiro a, inteiro b) { a+b }?",
-        options: [
-            "4",
-            "0",
-            "Erro de compilação",
-            "2"
-        ],
-        correctAnswer: "Erro de compilação"
-    },
-    {
         question: "Qual a diferença entre um objeto instanciado de uma classe e a própria classe?",
         options: [
             "Qualquer atributo de uma classe pode ser utilizado diretamente por ela. O objetivo do Objeto é descrever a estrutura com que a classe será construída.",
@@ -407,16 +397,6 @@ const questions = [
             "É o método de requisição HTTP que indica que os dados enviados farão uma alteração parcial do registro."
         ],
         correctAnswer: "É o método de requisição HTTP que indica que os dados enviados farão uma alteração parcial do registro."
-    },
-    {
-        question: "O que é polimorfismo?",
-        options: [
-            "Uma técnica da programação funcional.",
-            "Um dos princípios da programação orientada a objetos.",
-            "Uma forma de teste que garante a funcionalidade de um sistema.",
-            "Um método de otimização de código."
-        ],
-        correctAnswer: "Um dos princípios da programação orientada a objetos."
     },
     {
         question: "Sabendo-se que os bancos de dados podem ser classificados em relacionais e não relacionais, qual dos seguintes bancos de dados é não-relacional?",
@@ -640,6 +620,25 @@ const questions = [
             "Errado",
         ],
         correctAnswer: "Errado"
+    },
+    {
+        question: "O for, uma das estruturas de repetição, é utilizado quando o número de iterações não é conhecido antecipadamente.",
+        options: [
+            "Certo",
+            "Errado",
+        ],
+        correctAnswer: "Errado"
+    },
+    {
+        question: "Em que consiste, basicamente, a elaboração de pseudocódigo?",
+        options: [
+            "É uma forma de escrever código-fonte que é compilado antes de ser executado.",
+            "É uma forma de escrever algoritmos utilizando o Portugal (apenas), de forma a facilitar a compreensão da lógica do programa.",
+            "É um passo obrigatório na análise de um problema para que possa ser resolvido por meio de um programa.",
+            "É uma técnica para escrever código-fonte que é executado diretamente, sem a necessidade de compilação.",
+            "É uma forma de descrever a lógica de um algoritmo, independentemente da linguagem de programação utilizada.",
+        ],
+        correctAnswer: "É uma forma de descrever a lógica de um algoritmo, independentemente da linguagem de programação utilizada."
     },
     // {
     //     question: "",
