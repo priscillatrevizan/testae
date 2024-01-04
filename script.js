@@ -23,22 +23,22 @@ const questions = [
     {
         question: "O que é um Framework?",
         options: [
-            "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oderecem alguma funcionalidade específica. Em outras palavras é um padrão que pode ser incorporado a sistemas para agilizar a codificação de certas partes",
+            "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oferecem alguma funcionalidade específica. Em outras palavras é um padrão que pode ser incorporado a sistemas para agilizar a codificação de certas partes",
             "É uma linguagem formal que funciona por meio de uma série de instruções, símbolos, palavras-chave, regras semânticas e sintáticas.",
-            "São conjuntos de arquicos relacionados entre si, com registris sobrepessoas, lugares ou informações em geral",
+            "São conjuntos de arquivos relacionados entre si, com registros sobre pessoas, lugares ou informações em geral",
             "Trata-se de uma interface de programação que os navegadores utilizam para representar páginas na web"
         ],
-        correctAnswer: "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oderecem alguma funcionalidade específica. Em outras palavrasm é um padrão que pode ser incorporado a sistemas para agilizar a codificação de certas partes"
+        correctAnswer: "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oferecem alguma funcionalidade específica. Em outras palavrasm é um padrão que pode ser incorporado a sistemas para agilizar a codificação de certas partes"
     },
     {
         question: "Qual a função de uma API?",
         options: [
             "Definir a estrutura lógica dos documentos em forma de árvore, a qual guia o navegador na representação e manipulação dos componentes da página.",
-            "Permitir a integração entre dois sistemas, em um deles fornece informações e servilços que podem ser utilizados pelo outro, sem a necessidade de algum dos sistemas conhecer detalhes de implementação de software",
+            "Permitir a integração entre dois sistemas, em um deles fornece informações e serviços que podem ser utilizados pelo outro, sem a necessidade de algum dos sistemas conhecer detalhes de implementação de software",
             "Traduz um programa descrito em uma linguagem de alto nível para um programa equivalente em código de máquina para um processador",
             "Criar aplicações que combina ferramentas comuns de desenvolvimento em uma única interface gráfica do usuário (GUI)"
         ],
-        correctAnswer: "Permitir a integração entre dois sistemas, em um deles fornece informações e servilços que podem ser utilizados pelo outro, sem a necessidade de algum dos sistemas conhecer detalhes de implementação de software"
+        correctAnswer: "Permitir a integração entre dois sistemas, em um deles fornece informações e serviços que podem ser utilizados pelo outro, sem a necessidade de algum dos sistemas conhecer detalhes de implementação de software"
     },
     {
         question: `Um estudante de programação elaborou a seguinte sequência:
@@ -64,8 +64,8 @@ const questions = [
         options: [
             "Qualquer atributo de uma classe pode ser utilizado diretamente por ela. O objetivo do Objeto é descrever a estrutura com que a classe será construída.",
             "A classe é como uma forma em que os objetos podem ser instanciados, a classe não é utilizada diretamente, mas sim seus objetos instanciados.",
-            "A classe e os obnjetos são a mesma coisa. A nomenclatura muda de acordo com a linguagem de programação.",
-            "Classes são como contratos, isto é, não possui implementações mas depende que u objeto possa implementá-la."
+            "A classe e os objetos são a mesma coisa. A nomenclatura muda de acordo com a linguagem de programação.",
+            "Classes são como contratos, isto é, não possui implementações mas depende que um objeto possa implementá-la."
         ],
         correctAnswer: "A classe é como uma forma em que os objetos podem ser instanciados, a classe não é utilizada diretamente, mas sim seus objetos instanciados."
     },
@@ -84,7 +84,7 @@ const questions = [
         options: [
             "Um método HTTP, que indica a busca e captura de dados do Backend.",
             "É o método de acesso à camada Model do padrão MVC.",
-            "É o método de requisição HTTP, que indica que os dados enviados farão uma alteração completa num registro.",
+            "É o método de requisição HTTP, que indica que os dados enviados farão uma alteração completa do registro.",
             "É o método de requisição HTTP, que indica que os dados enviados farão uma alteração parcial registro."
         ],
         correctAnswer: "É o método de requisição HTTP, que indica que os dados enviados farão uma alteração parcial registro."
@@ -93,9 +93,9 @@ const questions = [
         question: "Testes unitários quando executados, testam métodos de um programa. Assinale a alternativa que identifica ou melhor representa um benefício de se programar testes unitários?",
         options: [
             "Permitem uma maior segurança no programa, e em suas futuras manutenções. Por isso mesmo tendo de programar código a mais, ele favorece um ganho de tempo no futuro.",
-            "Permitem melhor estética no código. POr ser unitário, testam o sistema inteiro como um bloco único.",
+            "Permitem melhor estética no código. Por ser unitário, testam o sistema inteiro como um bloco único.",
             "Seus benefícios de segurança e de estética não compensam o tempo gasto para desenvolvê-los, por isso é uma prática não muito reconhecida.",
-            "São testes realizados para verificar o funcionamento adequado de métodos de um programa. Para se caracterizar testes unitários, eles devem obnrigatóriamente ser escritos antes do desenvolvimento do método testado."
+            "São testes realizados para verificar o funcionamento adequado de métodos de um programa. Para se caracterizar testes unitários, eles devem obrigatóriamente ser escritos antes do desenvolvimento do método testado."
         ],
         correctAnswer: "Permitem uma maior segurança no programa, e em suas futuras manutenções. Por isso mesmo tendo de programar código a mais, ele favorece um ganho de tempo no futuro."
     },
@@ -113,7 +113,7 @@ const questions = [
         question: "Sobre o HTML é correto afirmar:",
         options: [
             "Trata-se de uma linguagem apenas de marcação, sem nenhum tipo de influência na performance ou efeito visual de uma página.",
-            "É uma linguagem poderosa que permite a criaçãod e scripts, efeitos visuais e lógicas complexas, sem a necessidade de outra linguagem de programação.",
+            "É uma linguagem poderosa que permite a criação de scripts, efeitos visuais e lógicas complexas, sem a necessidade de outra linguagem de programação.",
             "Trata-se de uma linguagem de marcação fundamental na construção de páginas web, que, com o auxílio de uma linguagem de folha de estilos e uma linguagem de programação, permite a criação de páginas inteligentes e estilizadas.",
             "Nenhuma das alternativas"
         ],
@@ -183,18 +183,18 @@ const questions = [
         question: "O que são Funções Recursivas?",
         options: [
             "Funções que envolvem dados de outras funções para serem executadas",
-            "Funções que refere a si mesma, ou seja, sentro da função tem uma chamada da própria função.",
+            "Funções que refere a si mesma, ou seja, dentro da função tem uma chamada da própria função.",
             "Funções que utilizam mais recursos do sistema (como memória).",
             "Funções que utilizam recursos de outras funções para serem executadas"
         ],
-        correctAnswer: "Funções que refere a si mesma, ou seja, sentro da função tem uma chamada da própria função."
+        correctAnswer: "Funções que refere a si mesma, ou seja, dentro da função tem uma chamada da própria função."
     },
     {
         question: "Com base na seguinte query, o que será retornado do banco de dados? <br>SELECT* FROM frutas WHERE nome_fruta LIKE '_B%'",
         options: [
             "Irá retornar o nome de todas as frutas que começam com a letra B.",
             "Irá retornar o nome de todas as frutas que tenham a letra B como segunda letra.",
-            "Irá retornar o nome de todas a frutas que começam com_B.",
+            "Irá retornar o nome de todas as frutas que começam com_B.",
             "Irá retornar o nome de todas as frutas que possuem a letra B em qualquer posição"
         ],
         correctAnswer: "Irá retornar o nome de todas as frutas que tenham a letra B como segunda letra."
@@ -332,7 +332,7 @@ const questions = [
         question: "Qual é o objetivo dos testes de integração em um software?",
         options: [
             "Testar cada módulo de um sistema isoladamente.",
-            "Garantir que cada parte do sistema funciona corretamente individualmente.",
+            "Garantir que cada parte do sistema funcione corretamente individualmente.",
             "Verificar se as interações entre diferentes partes do sistema funcionam conforme o esperado.",
             "Testar a interface do usuário para garantir que seja intuitiva e fácil de usar."
         ],
@@ -379,16 +379,6 @@ const questions = [
         correctAnswer: "Erro de compilação"
     },
     {
-        question: "O que é um Framework?",
-        options: [
-            "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oferecem alguma funcionalidade específica.",
-            "É uma linguagem formal que funciona por meio de uma série de instruções, símbolos, palavras-chave, regras semânticas e sintáticas.",
-            "São conjuntos de arquivos relacionados entre si, com registros sobre pessoas, lugares ou informações em geral.",
-            "Trata-se de uma interface de programação que os navegadores utilizam para representar páginas na web."
-        ],
-        correctAnswer: "Trata-se de uma série de bibliotecas e classes, ou seja, códigos prontos, que oferecem alguma funcionalidade específica."
-    },
-    {
         question: "Qual a diferença entre um objeto instanciado de uma classe e a própria classe?",
         options: [
             "Qualquer atributo de uma classe pode ser utilizado diretamente por ela. O objetivo do Objeto é descrever a estrutura com que a classe será construída.",
@@ -404,7 +394,7 @@ const questions = [
             "É quando uma classe herda os métodos de outra, a classe filha então utiliza os métodos da classe mãe.",
             "É um dos princípios da Programação Funcional. Caracteriza-se por possuir funções dentro de outras funções, mantendo o código mais organizado.",
             "É um dos princípios da Programação Orientada a Objetos. Caracteriza-se pela herança de classes onde a classe filha sobrescreve a implementação de um método da classe mãe.",
-            "É o conceito bastante utilizado para variáveis globais em programação estrutural, permitindo seu acesso em todos os pontos do código."
+            "É um conceito bastante utilizado para variáveis globais em programação estrutural, permitindo seu acesso em todos os pontos do código."
         ],
         correctAnswer: "É um dos princípios da Programação Orientada a Objetos. Caracteriza-se pela herança de classes onde a classe filha sobrescreve a implementação de um método da classe mãe."
     },
@@ -413,20 +403,10 @@ const questions = [
         options: [
             "Um método HTTP que indica a busca e captura de dados do Backend.",
             "É o método de acesso à camada Model do padrão MVC.",
-            "É o método de requisição HTTP que indica que os dados enviados farão uma alteração completa num registro.",
-            "É o método de requisição HTTP que indica que os dados enviados farão uma alteração parcial num registro."
+            "É o método de requisição HTTP que indica que os dados enviados farão uma alteração completa do registro.",
+            "É o método de requisição HTTP que indica que os dados enviados farão uma alteração parcial do registro."
         ],
-        correctAnswer: "É o método de requisição HTTP que indica que os dados enviados farão uma alteração parcial num registro."
-    },
-    {
-        question: "Qual é um benefício de se programar testes unitários?",
-        options: [
-            "Permitem uma maior segurança no programa e em suas futuras manutenções, mesmo tendo de programar código adicional.",
-            "Permitem melhor estética no código, testando o sistema inteiro como um bloco único.",
-            "Seus benefícios de segurança e estética não compensam o tempo gasto para desenvolvê-los, por isso é uma prática não muito reconhecida.",
-            "São testes realizados para verificar o funcionamento adequado de métodos de um programa e devem ser escritos antes do desenvolvimento do método testado."
-        ],
-        correctAnswer: "Permitem uma maior segurança no programa e em suas futuras manutenções, mesmo tendo de programar código adicional."
+        correctAnswer: "É o método de requisição HTTP que indica que os dados enviados farão uma alteração parcial do registro."
     },
     {
         question: "O que é polimorfismo?",
@@ -582,7 +562,7 @@ const questions = [
         correctAnswer: "Sequencial."
     },
     {
-        question: "Num determinado código de programação, foi encontrada a expressão booleana “( A or B) and (A or C)”. Como essa expressão poderia ser reescrita para se obter um código mais eficiente, com um menor número de operações?",
+        question: "Em um determinado código de programação, foi encontrada a expressão booleana “( A or B) and (A or C)”. Como essa expressão poderia ser reescrita para se obter um código mais eficiente, com um menor número de operações?",
         options: [
             "A or B or C",
             "A or B and C",
@@ -590,7 +570,7 @@ const questions = [
             "A and B and C",
             "( A or B ) and C"
         ],
-        correctAnswer: "( A or B ) and C"
+        correctAnswer: "A or B and C"
     },
     {
         question: "Os tipos de dados são essenciais na programação, determinando como os valores são armazenados e manipulados. Eles definem os conjuntos de valores e as operações possíveis, desempenhando um papel fundamental na comunicação entre programadores e computadores. Entender os tipos de dados é crucial para criar programas funcionais e robustos.<br><br>Sobre os tipos de dados, analise as assertivas a seguir.<br><br>I. Tipos inteiros armazenam valores que pertencem ao conjunto dos números naturais, sem a parte fracionária.<br>II. Tipos numéricos com a parte fracionária são definidos como reais.<br>III. Tipos caracteres permitem armazenar um único caractere.<br><br>É correto o que se afirma em",
@@ -612,10 +592,10 @@ const questions = [
             "if-else permite a existência de instruções que não são executadas em um programa.",
             "um teste de condição pode ser realizado através da instrução while."
         ],
-        correctAnswer: "a condição if-else é avaliada e, caso seja verdadeira, é executada a instrução associada ao else."
+        correctAnswer: "if-else permite a existência de instruções que não são executadas em um programa."
     },
     {
-        question: "É uma metodologia visualmente amigável e com um objetivo prático para o ensino dos conceitos iniciais ligados à programação, desenvolvimento de softwares/aplicativos e lógica de uma forma geral.<br><br>FONTE: https://microcamp.com.br/<br><br>Marque a alternativa correta que corresponde à descrição apresentada:",
+        question: "É uma metodologia visualmente amigável e com um objetivo prático para o ensino dos conceitos iniciais ligados à programação, desenvolvimento de softwares/aplicativos e lógica de uma forma geral.<br><br>Marque a alternativa correta que corresponde à descrição apresentada:",
         options: [
             "Pensamento computacional.",
             "Programação em blocos.",
@@ -626,7 +606,14 @@ const questions = [
         correctAnswer: "Programação em blocos."
     },
     {
-        question: "Quanto à lógica de programação, analise as assertivas abaixo e assinale a alternativa correta.",
+        question: `Quanto à lógica de programação, analise as assertivas abaixo e assinale a alternativa correta. <br> 
+        <br> I. Linguagem de programação é o conjunto de representações e/ou regras utilizadas para criar programas.<br> 
+
+        <br> II. Há três tipos de dados simples: numérico, literal e lógico.<br> 
+        
+        <br> III. Nos tipos de dados estruturados, as informações são compostas por diversos campos.<br> 
+        
+        <br> IV. Expressões regulares são formas concisas de descrever um conjunto de strings que satisfazem um determinado padrão.<br> `,
         options: [
             "Todas as assertivas estão corretas.",
             "Todas as assertivas estão incorretas.",
